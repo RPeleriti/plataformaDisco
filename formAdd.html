@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Agregar Musica</title>
+</head>
+<body class= " bg-gray-900 bg-contain h-56" style="background-image: url(img/Hey-ho-DETALL-WEB-20.jpg)">
+    <div class="bg-gray-200 h-14">
+
+        <div class="text-gray-700 text-right bg-gray-400 px-4 h-14 ">
+            <p class="float-left font-extrabold text-5xl tracking-widest">RAMONES</p>
+            <a href="home.html">
+            <button type="button"
+                class="bg-gray-600 text-white font-bold py-2 px-4 rounded mt-2 hover:bg-gray-800">Home</button></a>
+            <a href="albums.html">
+            <button type="btn"
+                class="bg-gray-600 text-white font-bold py-2 px-4 rounded mt-2 hover:bg-gray-800">Albums</button></a>
+        </div>
+    </div>
+    <div class=" bg-gray-800  mt-50 h-96">
+        <form action="" method="post">
+            <div class="text-gray-700 text-center bg-gray-400  ">
+                <h3 class="bg-gray-600 text-white font-bold py-2 px-4 rounded">AGREGA TU DISCO</h3>
+            </div>
+            <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-auto flex flex-col ">
+                <label> DISCO  <input type="text" name="disco" placeholder="Aca va el nombre" value="disco" required> </label>
+            
+                <label class="mr-2">TITULO <input type="text" name="titulo" placeholder="Titulo Cancion" value="titulo" required></label>
+            
+            <label >TIME
+                <input type="time" name="tiempo" placeholder="Tiempo Duracion" value="tiempo" required>
+            </label>
+            <label >AÑO
+                <input type="date" name="fecha" placeholder="Fecha Lanzamiento" value="fecha" required>
+            </label>
+            <label >FOTO
+                <input tipe="file" name="foto" placeholder="Foto Albun" value="foto">
+            </label>
+            </div>
+         
+            <div class=" flex flex-row gap-4 justify-center bg-gray-400">
+               <button type="button" class="bg-gray-600 text-white font-bold py-2 px-4 rounded "><img class="w-8 h-8"
+                src="img/play-button_icon-icons.com_53922.png" alt="escuchar"></button>
+            
+                <button type="button" class="bg-gray-600 text-white font-bold py-2 px-4 rounded "><img class="w-8 h-8"
+                    src="img/add_plus_insert_icon_160937.png" alt="agregar"></button>
+                <button type="button" class="bg-gray-600 text-white font-bold py-2 px-4 rounded "><img class="w-6 h6"
+                    src="img/eliminar.png" alt="eliminar"></button>
+            </div>
+    </div>
+    </form>
+
+    </div>
+    
+    
+</body>
+</html>

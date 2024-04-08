@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<title>Editar</title>
+</head>
+
+<body class=" bg-gray-900 bg-contain h-56" style="background-image: url(img/Hey-ho-DETALL-WEB-20.jpg)">
+    <div class="bg-gray-200 h-14 w-full">
+        <div class="text-gray-700 text-right bg-gray-400 px-4 h-14 ">
+            <p class="float-left font-extrabold text-5xl tracking-widest">RAMONES</p>
+            <a href="home.html">
+                <button type="button"
+                    class="bg-gray-600 text-white font-bold py-2 px-4 rounded mt-2 hover:bg-gray-800">Home</button></a>
+            <a href="albums.html">
+                <button type="btn"
+                    class="bg-gray-600 text-white font-bold py-2 px-4 rounded mt-2 hover:bg-gray-800">Albums</button></a>
+        </div>
+    </div>
+    <div class=" bg-gray-800  mt-50 h-96 w-full">
+
+        <form action="" method="post">
+            <h3 class="bg-gray-600 text-white font-bold py-2 px-4 rounded  text-center">EDITA TUS CANCIONES</h3>
+
+            <div class="text-gray-700  bg-gray-400 px-4 py-2 m-auto flex flex-col gap-4 w-1/3">
+                <label class="m-auto">Selecciona
+                    <input class="w-2/3" type="text" name="titulo" placeholder=" Titulo Cancion" required>
+                </label>
+                <label class="m-auto "> Modifica
+                    <select class="w-2/3 " name="Modifica">
+                        <option name="Disco">Disco</option>
+                        <option name="Titulo">Titulo</option>
+                        <option name="Duracion">Duracion</option>
+                        <option name="lanzamiento">Año lanzamiento</option>
+                        <option name="imagen">Imagen</option>
+                    </select>
+                </label>
+                <button type="button" class="bg-gray-600 text-white font-bold py-2 px-4 rounded m-auto"> Update</button>
+            </div>
+        </form>
+    </div>
+</body>
