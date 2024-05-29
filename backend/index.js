@@ -9,6 +9,7 @@ const Cancion = require('./models/canciones');
 
 const app = express();
 const PORT = 3000;
+app.use("/health", (req, res) => res.sendStatus(200));
 
 // Configuración de multer para subir archivos
 const storage = multer.diskStorage({
